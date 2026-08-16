@@ -39,6 +39,7 @@ Running `astro dev start` in my VS Code terminal to spin up local containers.
 ### 2. Docker Desktop Containers Running
 Showing my Airflow scheduler, webserver, database, and triggerer instances running smoothly.
 ![Docker Desktop Setup](./ss/Screenshot%202026-08-16%20202112.png)
+)
 
 ### 3. Airflow Main Dashboard Overview
 My main UI console tracking execution histories for all three custom DAG workflows.
