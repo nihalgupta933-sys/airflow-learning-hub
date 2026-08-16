@@ -51,8 +51,8 @@ Looking at the execution status logs of my first task `t1` in the math pipeline.
 
 ### 5. Modern Taskflow Graph View
 Tracking clean functional parameter pipelines (`start_number` ➡️ `add_five` ➡️ `mul_num` ➡️ `sub_num`).
-![Taskflow Graph](./ss/Screenshot%202026-08-16%20204935.png)
+![Taskflow Graph](./ss/Screenshot%202026-08-16%20204903.png)
 
 ### 6. Machine Learning Workflow Run Logs
 Verifying data preprocessing stage logs inside my modular machine learning pipeline visualization graph.
-![ML Pipeline Logs](./ss/Screenshot%202026-08-16%20202222.png)
+![ML Pipeline Logs](./ss/Screenshot%202026-08-16%20204935.png)
