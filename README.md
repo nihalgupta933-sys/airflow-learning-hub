@@ -2,12 +2,12 @@
 
 Hi! Welcome to my repository. I am a beginner learning Data Engineering. This is my very first project where I built and orchestrated **3 simple data pipelines (DAGs)** using the **Astronomer CLI** and **Docker Desktop**.
 
-*⚠️ **Note:** Due to local system upload constraints, some project configuration folders did not upload completely, but all core code and pipelines run perfectly as shown below!*
+*⚠️ **Note:** Due to local system upload constraints, some project configuration folders did not upload completely, but all core pipeline code runs perfectly as shown below.*
 
 ---
 
 ## 🛠️ Tech Stack Used
-* **Orchestrator:** Apache Airflow
+* **Orchestration Engine:** Apache Airflow
 * **Environment Management:** Astronomer CLI (Astro)
 * **Containerization:** Docker Desktop
 * **Language:** Python
@@ -21,38 +21,37 @@ Hi! Welcome to my repository. I am a beginner learning Data Engineering. This is
    - Runs tasks in a simple linear sequence (`t1 >> t2 >> t3 >> t4`).
 2. **`maths_taskflow_sequence_dag`**
    - Built using the modern `@task` decorator syntax (**TaskFlow API**).
-   - Easily passes data outputs directly between functions.
+   - Passes data outputs seamlessly between functional tasks.
 3. **`ml_pipeline`**
-   - Simulates a basic Machine Learning workflow.
+   - Simulates a basic Machine Learning lifecycle workflow.
    - Moves step-by-step: `preprocess_task` ➡️ `train_task` ➡️ `evaluate_task`.
 
 ---
 
 ## 📊 Project Execution Screenshots
 
-Here is the visual proof that everything runs successfully in my local setup environment:
+Here is the exact visual proof of my application workflows running step-by-step in my local environment:
 
-### 1. Starting the Project via Astro CLI
-Running `astro dev start` in my VS Code terminal to spin up local containers.
+### 1. Project Initialization via Astro CLI
+Running `astro dev start` in the terminal to compile local runtime dependencies.
 ![Astro Dev Start](./ss/Screenshot%202026-08-16%20202019.png)
 
-### 2. Docker Desktop Containers Running
-Showing my Airflow scheduler, webserver, database, and triggerer instances running smoothly.
-![Docker Desktop Setup](./ss/Screenshot%202026-08-16%20204742.png)
-)
-
-### 3. Airflow Main Dashboard Overview
-My main UI console tracking execution histories for all three custom DAG workflows.
+### 2. Airflow Web Server Dashboard Overview
+My main UI console view tracking the status and histories of all three custom pipelines.
 ![Airflow Dashboard](./ss/Screenshot%202026-08-16%20202112.png)
 
-### 4. Traditional Sequence Dag Graph View
-Looking at the execution status logs of my first task `t1` in the math pipeline.
-![Maths Sequence DAG](./ss/Screenshot%202026-08-16%20204801.png)
+### 3. Docker Desktop Services Layout
+Showing my background metadata database, webserver, and scheduler running smoothly.
+![Docker Desktop Setup](./ss/Screenshot%202026-08-16%20204742.png)
 
-### 5. Modern Taskflow Graph View
-Tracking clean functional parameter pipelines (`start_number` ➡️ `add_five` ➡️ `mul_num` ➡️ `sub_num`).
-![Taskflow Graph](./ss/Screenshot%202026-08-16%20204903.png)
+### 4. Machine Learning Workflow Graph Views
+Verifying successful step execution runs inside the simulated machine learning pipeline.
+![ML Pipeline Logs](./ss/Screenshot%202026-08-16%20204801.png)
 
-### 6. Machine Learning Workflow Run Logs
-Verifying data preprocessing stage logs inside my modular machine learning pipeline visualization graph.
-![ML Pipeline Logs](./ss/Screenshot%202026-08-16%20204935.png)
+### 5. Traditional Sequence Graph Logs
+Looking closely at execution log details for my sequential python operator tasks.
+![Maths Sequence DAG](./ss/Screenshot%202026-08-16%20204903.png)
+
+### 6. Modern Taskflow Graph Verification
+Tracking clean parameter flows through the decorated task mapping graph engine.
+![Taskflow Graph](./ss/Screenshot%202026-08-16%20204935.png)
