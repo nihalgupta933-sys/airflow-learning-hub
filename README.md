@@ -34,11 +34,11 @@ Here is the visual proof that everything runs successfully in my local setup env
 
 ### 1. Starting the Project via Astro CLI
 Running `astro dev start` in my VS Code terminal to spin up local containers.
-![Astro Dev Start](./ss/Screenshot%202026-08-16%20204742.png)
+![Astro Dev Start](./ss/Screenshot%202026-08-16%20202019.png)
 
 ### 2. Docker Desktop Containers Running
 Showing my Airflow scheduler, webserver, database, and triggerer instances running smoothly.
-![Docker Desktop Setup](./ss/Screenshot%202026-08-16%20202112.png)
+![Docker Desktop Setup](./ss/Screenshot%202026-08-16%20204742.png)
 )
 
 ### 3. Airflow Main Dashboard Overview
